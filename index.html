@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookmark App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet"
+    media="screen" />
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" media="screen" />
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+  <meta name="description"
+    content="This app is not only powerful but it's also the most beautiful looking bookmark manager you will ever use." />
+  <meta name="keywords" content="Bookmark Manager, bookmarkapp, bookmark app, bookmark website" />
+  <meta name="author" content="Habibur Rahman" />
+
+  <style>
+    /* Define the CSS for the heading */
+    .bookmarks-heading {
+      font-family: "Arial", sans-serif;
+      font-size: 28px;
+      text-align: center;
+      background-color: #526D82;
+      color: #DDE6ED;
+      padding: 10px;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      border-radius: 5px;
+      width: 50vh;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <h1 class="bookmarks-heading">Book Marks</h1>
+  <div class="floater content">
+    <form action="" class="bookmark-form">
+      <div class="floater-top">
+        <input type="text" name="text" class="form-control" placeholder="Enter a URL" />
+        <div class="floater-bottom">
+          <button class="btn btn-primary" type="submit">
+            Add
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="bookmarks-list content"></div>
+  <script src="js/app.js" async></script>
+  
+</body>
+
+</html>
